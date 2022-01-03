@@ -3,8 +3,6 @@
 
     $token = strtoupper($token);
 
-    echo ($token);
-
     if($token == ''){
         include('ship_tags.php');
         ?>
@@ -14,7 +12,9 @@
     }else{
         include('db.php');
 
-        $query = ("select * from tag_info where token = ' $token '");
+        $query = ("select * from tag_info where token = '" . $token . "'");
+
+        #'A162CAFFCB6897220F4D1CF28164D73CB91993A8'
 
         $consulta = mysqli_query($conexion, $query);
 

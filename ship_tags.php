@@ -1,12 +1,9 @@
 <?php 
-
-    $data1 = random_bytes(1);
+    $data1 = random_bytes(5);
     $data = bin2hex($data1);
     $data1 = sha1($data);
     $data = strtoupper($data1);
-
     echo ($data);
-
 ?>
 
 <!DOCTYPE html>
