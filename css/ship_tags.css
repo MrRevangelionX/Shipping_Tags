@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/bg-contable.jpg');
+    background-size: cover;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+}
+
+.header{
+    display: flex;
+}
+
+.header-container{
+    margin: auto;
+}
+
+.main{
+    display: flex;
+    background: #FFFFFF;
+}
+
+.main-container{
+    margin: auto;
+    text-align: center;
+}

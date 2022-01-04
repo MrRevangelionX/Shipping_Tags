@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/bg-contable.jpg');
+    background-size: cover;
+}
+
+.limites{
+    margin: auto;
+    width: 80%;
+}
+
+.container-header{
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: #123456;
+    color: #FFFFFF;
+}
+
+.main-container{
+    margin: auto;
+    height: 600px;
+    background: #FFFFFF;
+}
+
+.label-container{
+    margin: auto;
+    width: 80%;
+    background: #FFFFFF;
+    border: 1px solid #FF0000;
+    display: flex;
+}
+
+.label{
+    margin: 50px auto;
+    width: 48%;
+    height: 425px;
+    border: 1px solid #000000;
+}
+
+.label-header{
+    display: flex;
+}
+
+.label-header_address{
+    margin: 15px auto;
+    border-top: 7px solid #000000;
+    border-bottom: 35px solid #000000;
+}
+
+.barcode{
+    margin: 10px auto;
+    text-align: center;
+    font-size: 6vw;
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    border-bottom: 7px solid #000000;
+}
+
+.logo{
+    margin: auto;
+    width: 75%;
+}
+
+.label-titulo{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 15px;
+}

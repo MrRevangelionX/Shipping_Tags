@@ -1,9 +1,11 @@
-<?php 
-    $data1 = random_bytes(5);
-    $data = bin2hex($data1);
-    $data1 = sha1($data);
-    $data = strtoupper($data1);
-    echo ($data);
+<?php
+    //Generar un Token Random para la base de ventas
+    $data = random_bytes(5);
+    $data = bin2hex($data);
+    $data = sha1($data);
+    $data = strtoupper($data);
+    $data = substr($data,0,10);
+    echo($data);
 ?>
 
 <!DOCTYPE html>
@@ -13,6 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generador de Shipping Tag</title>
+    <link rel="stylesheet" href="./css/ship_tags.css">
 </head>
 <body>
     <div class="container">
